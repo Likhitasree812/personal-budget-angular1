@@ -1,0 +1,38 @@
+{
+    "myBudget": [
+    {
+        "title": "Food",
+        "budget": 333
+    },
+    {
+        "title": "Travel",
+        "budget": 130
+    },
+
+    {
+        "title": "Education",
+        "budget": 215
+    },
+    {
+        "title": "Household",
+        "budget": 210
+    },
+    {
+        "title": "Healthcare",
+        "budget": 280
+    },
+    {
+        "title": "Emergency",
+        "budget": 285
+    },
+    {
+        "title": "Event",
+        "budget": 110
+    },
+    {
+        "title": "others",
+        "budget": 160
+    }
+    
+]
+}
