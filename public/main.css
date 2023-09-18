@@ -7,6 +7,7 @@ body {
     font-family: Tahoma, Arial;
 }
 
+
 nav {
     width: 100%;
     background-color: #4d5791;
@@ -63,7 +64,7 @@ div.hero h2 {
     color: #4d5791;
 }
 
-main {
+.container {
     padding: 40px;
     width: 100%;
 }
@@ -73,28 +74,17 @@ main {
     display: inline-block;
 }
 
-footer {
+.bottom {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
-}
-
-.skip {
-    display: block;
-    line-height: 44px;
-    padding: 0 20px;
-    margin-top: -44px;
-}
-
-.skip:focus {
-    margin-top: 0;
 }
 
 .center {
     text-align: center;
 }
 
-main article {
+.container div.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -102,8 +92,20 @@ main article {
     margin: 20px;
 }
 
+.skip-link {
+    position: absolute;
+    z-index: 9999;
+    text-decoration: none;
+    opacity: 0.9;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
+
+  
 @media screen and (min-width: 768px) {
-    main article {
+    .container .div.text-box {
         margin: 10px;
     }
 }
