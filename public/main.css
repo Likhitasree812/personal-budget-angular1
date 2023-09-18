@@ -87,9 +87,9 @@ div.hero h2 {
 .container div.text-box {
     display: inline-block;
     width: 100%;
-    max-width: 340px;
+    max-width: 320px;
     text-align: justify;
-    margin: 20px;
+    margin: 10px;
 }
 
 .skip-link {
@@ -105,7 +105,7 @@ div.hero h2 {
 
   
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    .container .article {
         margin: 10px;
     }
 }
